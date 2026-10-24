@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    padding-top:80px;
+    font-family: matcha;
+    color: #291645;
+    overflow-x: hidden;
+    
+}
+@font-face {
+    font-family: batman;
+    src: url("../fuentes/batmfa__.ttf") format("truetype"),
+    url("../fuentes/batmfo__.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: matcha;
+    src: url("../fuentes/Matcha Style.ttf") format("truetype");
+}
+
+    #encabezado {
+        background-color: #5581a0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        height: 80px;
+        width: 100%;
+        z-index: 50;
+    }
+
+    #logotipo {
+       display: flex;
+       justify-content: center;
+       height: 60px;
+       width: auto;
+    }
+
+    #portada {
+        background-image: url("../img/fondo.png");
+        padding: 100px 50px 50px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+  #imgportada {
+    display: block;
+        height: 400px;
+        width: auto;
+        box-shadow: #5581a0 2px 2px 12px 2px;
+    }
+
+
+    #menu {
+        background-color: #5581a0;
+     width: 280px ;
+     height: 50px;
+     margin-top: 20px;
+
+    }
+
+     
+
+    #menu ul  {
+     display: flex;
+gap: 20px;
+     
+     list-style:none ;
+
+     
+    }
+    #menu ul li {
+     display: inline;
+     white-space:nowrap;
+     font-size:larger;
+    }
+
+ #acercademi {
+        background-color: #91dbd0;
+        display: grid;
+        grid-template-columns: 25% 50% 25% ;
+        column-gap: 20px;
+        padding: 80px 20px 20px 20px;
+        
+    }
+    #textoacercademi {
+        background-color: antiquewhite;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .textcenter{
+        text-align: center;
+    }
+    #imagenperfil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+        height: 260px ;
+    }
+
+    #imagenperfil img {
+        height: 100% ;
+    }
+
+    .curriculim{
+        flex-wrap:wrap;
+    }
+    
+    #portafolio {
+        background-color: rgb(253, 181, 219);
+        padding: 80px 10px 10px 10px;
+
+    }
+    #trabajos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 100px;
+        column-gap: 15px;
+    }
+
+.trabajo{
+width: 32%;
+height: auto;
+
+}
+
+.trabajo img {
+width: 100%;
+height: 400px;
+object-fit: contain;
+object-position: center;
+border-radius: 4px;
+transition: transform 0.2s;
+}
+
+.trabajo img:hover {
+transform: translate(0 ,-30px)
+scale(1.2);
+}
+
+.trabajo h3,.trabajo p {
+text-align: center;
+margin: 10px;
+
+
+}
+    #contacto {
+        background-color: aquamarine;
+        padding: 80px 50px 80px 50px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+
+  
+    
+    
+    #habilidades {
+        background-color: darksalmon;
+        display: flex;
+    }
+    
+    #descarga {
+        background-color: darkorchid;
+        width: 100%;
+        text-align: center;
+    }
+
+    #minipagina1 {
+       display: flex;
+       flex-flow: column;
+       align-items: center;
+       height: 100%;
+       padding: 20px;
+     background-image: url("../img/fondo.png");
+    }
+     #minipagina1 .contenido {
+       display: flex;
+       flex-flow: column;
+       align-items: center;
+       width: 90%;
+       background-color: rgb(253, 181, 219);
+    }
+
+    #minipagina1 img{
+        box-shadow: #5581a0 2px 2px 12px 2px;
+        height: 600px;
+     width: auto;
+    }
+
+    #minipagina1 .descripcion {
+        width: 60%;
+    }
+
+    #piedeminipagina {
+        text-align: center;
+        background-color: #91dbd0;
+        padding: 20px;
+    }
